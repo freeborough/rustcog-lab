@@ -1,0 +1,10 @@
+[package]
+name = "rustcog-lab"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+iced = { git = "https://github.com/iced-rs/iced", rev = "7a97773f1796fa7889435c78305d287449dd05a4", features = [
+  "tokio",
+  "sipper",
+] }
